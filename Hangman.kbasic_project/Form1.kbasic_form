@@ -1,0 +1,592 @@
+﻿Begin Form *
+    DockTitleVisible = True
+    DrawOnPaint = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 520
+    LoadedHeight = 517
+    LoadedWidth = 543
+    LoadedX = 322
+    MouseTracking = True
+    Opacity = 100
+    Resizable = True
+    SQLDelete = True
+    SQLInsert = True
+    SQLUpdate = True
+    Visible = True
+    Width = 543
+    X = 322
+    Y = 12
+
+
+  Begin CommandButton cmdReset
+    Caption = "Reset"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    LoadedHeight = 34
+    LoadedWidth = 89
+    LoadedX = 306
+    LoadedY = 334
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 89
+    X = 306
+    Y = 334
+  End
+
+  Begin CommandButton cmdQuit
+    Caption = "Quit"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    LoadedHeight = 34
+    LoadedWidth = 89
+    LoadedX = 403
+    LoadedY = 334
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 89
+    X = 403
+    Y = 334
+  End
+
+  Begin CommandButton cmdTwo
+    Caption = "2"
+    DrawOnPaint = True
+    Enabled = False
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 34
+    LoadedX = 422
+    LoadedY = 59
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 34
+    X = 422
+    Y = 59
+  End
+
+  Begin CommandButton cmdOne
+    Caption = "1"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 34
+    LoadedX = 361
+    LoadedY = 60
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 34
+    X = 361
+    Y = 60
+  End
+
+  Begin Label Label1
+    Background = "&H663300_kbasicBR_"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 21
+    LoadedHeight = 21
+    LoadedWidth = 204
+    LoadedX = 38
+    LoadedY = 387
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 204
+    WordWrap = True
+    X = 38
+    Y = 387
+  End
+
+  Begin CommandButton cmdThree
+    AutoDefault = True
+    Caption = "3"
+    DrawOnPaint = True
+    Enabled = False
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 34
+    LoadedX = 361
+    LoadedY = 105
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 34
+    X = 361
+    Y = 105
+  End
+
+  Begin Label Label2
+    Background = "&H663300_kbasicBR_"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 332
+    LoadedHeight = 332
+    LoadedWidth = 20
+    LoadedX = 222
+    LoadedY = 62
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 20
+    WordWrap = True
+    X = 222
+    Y = 62
+  End
+
+  Begin Label Label3
+    Background = "&H663300_kbasicBR_"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 18
+    LoadedHeight = 18
+    LoadedWidth = 119
+    LoadedX = 123
+    LoadedY = 60
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 119
+    WordWrap = True
+    X = 123
+    Y = 60
+  End
+
+  Begin CommandButton cmdFour
+    Caption = "4"
+    DrawOnPaint = True
+    Enabled = False
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 34
+    LoadedX = 422
+    LoadedY = 105
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 34
+    X = 422
+    Y = 105
+  End
+
+  Begin CommandButton cmdFive
+    AutoDefault = True
+    Caption = "5"
+    DrawOnPaint = True
+    Enabled = False
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 34
+    LoadedX = 361
+    LoadedY = 151
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 34
+    X = 361
+    Y = 151
+  End
+
+  Begin CommandButton cmdSix
+    Caption = "6"
+    DrawOnPaint = True
+    Enabled = False
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 34
+    LoadedX = 421
+    LoadedY = 150
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 34
+    X = 421
+    Y = 150
+  End
+
+  Begin CommandButton cmdSeven
+    Caption = "7"
+    DrawOnPaint = True
+    Enabled = False
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 34
+    LoadedX = 361
+    LoadedY = 197
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 34
+    X = 361
+    Y = 197
+  End
+
+  Begin Label Label4
+    Background = "&H663300_kbasicBR_"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 67
+    LoadedHeight = 67
+    LoadedWidth = 25
+    LoadedX = 123
+    LoadedY = 61
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 25
+    WordWrap = True
+    X = 123
+    Y = 61
+  End
+
+  Begin Label Label5
+    Background = "&H884422"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 50
+    LoadedHeight = 50
+    LoadedWidth = 50
+    LoadedX = 111
+    LoadedY = 127
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 50
+    WordWrap = True
+    X = 111
+    Y = 127
+  End
+
+  Begin Label Label6
+    Background = "&H3300"
+    Caption = ""
+    Cursor = "SizeHorCursor"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 109
+    LoadedHeight = 109
+    LoadedWidth = 78
+    LoadedX = 98
+    LoadedY = 176
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 78
+    WordWrap = True
+    X = 98
+    Y = 176
+  End
+
+  Begin Label Label7
+    Background = "&H884422"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 26
+    LoadedHeight = 26
+    LoadedWidth = 50
+    LoadedX = 49
+    LoadedY = 188
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 50
+    WordWrap = True
+    X = 49
+    Y = 188
+  End
+
+  Begin Label Label8
+    Background = "&H884422"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 45
+    LoadedX = 176
+    LoadedY = 186
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 45
+    WordWrap = True
+    X = 176
+    Y = 186
+  End
+
+  Begin Label Label9
+    Background = "&H884422"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 64
+    LoadedHeight = 64
+    LoadedWidth = 33
+    LoadedX = 103
+    LoadedY = 283
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 33
+    WordWrap = True
+    X = 103
+    Y = 283
+  End
+
+  Begin Label Label10
+    Background = "&H884422"
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 64
+    LoadedHeight = 64
+    LoadedWidth = 31
+    LoadedX = 141
+    LoadedY = 283
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 31
+    WordWrap = True
+    X = 141
+    Y = 283
+  End
+
+  Begin CommandButton cmdEight
+    Caption = "8"
+    DrawOnPaint = True
+    Enabled = False
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 34
+    LoadedX = 421
+    LoadedY = 197
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 34
+    X = 421
+    Y = 197
+  End
+
+  Begin CommandButton cmdNine
+    Caption = "9"
+    Cursor = "ForbiddenCursor"
+    DrawOnPaint = True
+    Enabled = False
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 34
+    LoadedX = 361
+    LoadedY = 239
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 34
+    X = 361
+    Y = 239
+  End
+
+  Begin CommandButton cmdTen
+    Caption = "10"
+    Cursor = "ForbiddenCursor"
+    DrawOnPaint = True
+    Enabled = False
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 34
+    LoadedX = 421
+    LoadedY = 239
+    ParentControl = ""
+    TabIndex = 0
+    Visible = True
+    Width = 34
+    X = 421
+    Y = 239
+  End
+
+  Begin Label Gameover
+    Background = "&H000090"
+    Caption = "Game Over"
+    DrawOnPaint = True
+    Enabled = True
+    FontSize = 100
+    GlobalX = 0
+    GlobalY = 0
+    Height = 274
+    ParentControl = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 543
+    WordWrap = True
+    X = 0
+    Y = 102
+  End
+
+End Form
+
+
+
+Private Sub cmdQuit_OnEvent()
+  end
+End Sub
+
+
+Private Sub cmdReset_OnEvent()
+  Label1.visible=false
+  cmdTwo.enabled=false
+  Label2.visible=false
+  cmdThree.enabled=false
+   Label3.visible=false
+  cmdFour.enabled=false
+  Label4.visible=false
+  cmdFive.enabled=false
+  Label5.visible=false
+  cmdSix.enabled=false
+  Label6.visible=false
+  cmdSeven.enabled=false
+  Label7.visible=false
+  cmdEight.enabled=false
+  Label8.visible=false
+  cmdNine.enabled=false
+  Label9.visible=false
+  cmdTen.enabled=false
+  Label10.visible=false
+  
+End Sub
+
+
+Private Sub cmdOne_OnEvent()
+  Label1.visible=true
+  cmdTwo.enabled=true
+End Sub
+
+
+Private Sub cmdTwo_OnEvent()
+  Label2.visible=true
+  cmdThree.enabled=true
+End Sub
+
+
+Private Sub cmdThree_OnEvent()
+  Label3.visible=true
+  cmdFour.enabled=true
+End Sub
+
+
+
+Private Sub cmdFour_OnEvent()
+  Label4.visible=true
+  cmdFive.enabled=true
+End Sub
+
+
+
+Private Sub cmdFive_OnEvent()
+  Label5.visible=true
+  cmdSix.enabled=true
+End Sub
+
+
+
+Private Sub cmdSix_OnEvent()
+  Label6.visible=true
+  cmdSeven.enabled=true
+End Sub
+
+
+
+Private Sub cmdSeven_OnEvent()
+  Label7.visible=true
+  cmdEight.enabled=true
+End Sub
+
+
+
+Private Sub cmdEight_OnEvent()
+  Label8.visible=true
+  cmdNine.enabled=true
+End Sub
+
+
+
+Private Sub cmdNine_OnEvent()
+  Label9.visible=true
+  cmdTen.enabled=true
+End Sub
+
+
+
+Private Sub cmdTen_OnEvent()
+  Label10.visible=true
+  Gameover.visible=true
+End Sub
+
